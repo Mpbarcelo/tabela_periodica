@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --cor1: #339933;
+  --cor2: #f1950c;
+  --cor3: #9a6600;
+  --cor4: #e071ac;
+  --cor5: #1ba9a5;
+  --cor6: #89c13e;
+  --cor7: #7f529a;
+  --cor8: #20a0d7;
+  --cor9: #ed1790;
+  --cor10: #e31f21;
+  --cor11: #767676;
+  --cor12: #fffcff;
+  --cor13: #000000;
+}
+
+body {
+  background-color: var(--cor13);
+}
+
+.heading {
+  text-align: center;
+  padding: 30px;
+  font-size: 70px;
+  color: var(--cor12);
+  animation: flicker 1.5s infinite alternate;
+}
+
+td {
+  color: var(--cor12);
+  text-align: center;
+  width: 5vw;
+  border: 1px solid var(--cor12);
+  font-weight: 700;
+  size: 12px;
+}
+
+.vazia {
+  border: none;
+}
+
+.color1 {
+  background: var(--cor1);
+}
+
+.color2 {
+  background-color: var(--cor7);
+}
+.color3 {
+  background-color: var(--cor2);
+}
+.color4 {
+  background-color: var(--cor3);
+}
+.color5 {
+  background-color: var(--cor5);
+}
+.color6 {
+  background-color: var(--cor6);
+}
+.color7 {
+  background-color: var(--cor8);
+}
+.color8 {
+  background-color: var(--cor4);
+}
+.color9 {
+  background-color: var(--cor9);
+}
+.color10 {
+  background-color: var(--cor10);
+}
+.color11 {
+  background-color: var(--cor11);
+}
+.color12 {
+  background-color: var(--cor9);
+}
+
+/* aimação flicker */
+@keyframes flicker {
+  0%,
+  17%,
+  33%,
+  50%,
+  66%,
+  83%,
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #0fa, 0 0 40px #0fa, 0 0 70px #0fa,
+      0 0 110px #0fa, 0 0 160px #0fa;
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    text-shadow: none;
+  }
+}
+
+td:hover {
+  filter: brightness(200%);
+  color: var(--cor13);
+}
