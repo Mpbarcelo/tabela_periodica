@@ -29,6 +29,9 @@ body {
   color: var(--cor12);
   animation: flicker 1.5s infinite alternate;
 }
+table{
+  transform: scale(80%);
+}
 
 td {
   color: var(--cor12);
@@ -105,4 +108,10 @@ td {
 td:hover {
   filter: brightness(200%);
   color: var(--cor13);
+}
+footer {
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
