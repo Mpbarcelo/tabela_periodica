@@ -1,6 +1,6 @@
 # Tabela Periódica
 
-![Tabela Periódica](caminho/para/sua/imagem.jpg)
+![Tabela Periódica](./img/tabela.png)
 
 Este é um projeto de tabela periódica desenvolvido utilizando HTML e CSS. A tabela periódica é uma ferramenta importante para a compreensão da estrutura dos elementos químicos e de suas propriedades.
 
