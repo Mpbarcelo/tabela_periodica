@@ -2,13 +2,11 @@
 
 ![Tabela Periódica](./img/tabela.png)
 
-Este é um projeto de tabela periódica desenvolvido utilizando HTML e CSS. A tabela periódica é uma ferramenta importante para a compreensão da estrutura dos elementos químicos e de suas propriedades.
+Este é um projeto de tabela periódica desenvolvido utilizando HTML e CSS como atividade do curso <Descodificadas/> trilha 02. A tabela periódica é uma ferramenta importante para a compreensão da estrutura dos elementos químicos e de suas propriedades.
 
 ## Funcionalidades
 
 - Exibe os elementos químicos em uma tabela organizada.
-- Responsiva, adapta-se a diferentes tamanhos de tela.
-
 
 ## Como Usar
 
